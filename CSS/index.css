@@ -69,6 +69,11 @@ body { font-family: sans-serif; }
 	background-color: white;
 }
 
+::selection {
+ color: white;
+ background: #CD1133;
+}
+
 @media (min-width:500px){
 	.carousel-cell{
 		height: 45vh;

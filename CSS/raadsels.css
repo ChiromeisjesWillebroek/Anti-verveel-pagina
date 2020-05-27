@@ -1,0 +1,122 @@
+main a{
+	background-color: white;
+	padding: 2rem;
+	font-size: 1.5rem;
+	color: black;
+}
+
+main{
+	margin: 5%;
+}
+
+#titel{
+	width: 100%;
+	margin: 0;
+}
+
+img{
+	width: 100%;
+	margin: 0;
+	border-radius: 1rem;
+}
+
+p{
+	font-size: 2rem;
+	text-align: center;
+	margin: 2rem 0 1rem 0;
+	font-family: amatic-sc, sans-serif;
+	font-weight: 700;
+}
+
+button{
+	margin: 2rem auto;
+	display: block;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-family: sketchnote-square, sans-serif;
+	background-color: #3b3561;
+	border: none;
+	color: #dd7373;
+	border-radius: 1rem;
+}
+
+h2{
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+button{
+	margin: 2rem auto;
+	display: block;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-family: sketchnote-square, sans-serif;
+	background-color: #3b3561;
+	border: none;
+	color: #dd7373;
+	border-radius: 1rem;
+}
+
+input{
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	border: 0.2rem solid #3b3561;
+	font-size: 2rem;
+	font-family: sketchnote-square, sans-serif;
+	color: #3b3561;
+}
+
+.lach:focus{
+	background-color: blue;
+}
+
+.onzichtbaar{
+	display: none;
+}
+
+.raadsel{
+	display: none;
+}
+
+.juist{
+	color: green;
+}
+
+.fout{
+	color: red;
+	text-decoration: line-through;
+}
+
+#terug{
+	background-color: #dd7373;
+	color: #3b3561;
+}
+
+h3{
+	font-size: 1rem;
+	text-align: center;
+	margin: 1rem 0;
+	font-family: amatic-sc, sans-serif;
+	font-weight: 700;
+}
+
+@media (min-width:600px) {
+	p{
+		font-size: 2.5rem;
+	}
+	button{
+		font-size: 2rem;
+	}
+}
+
+@media (min-width:900px) {
+		p{
+			font-size: 3em;
+		}
+		main{
+		width: 40%;
+		margin: 5vh 30%;
+	}
+}
